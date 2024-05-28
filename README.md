@@ -1,5 +1,5 @@
 
-# PSX CHD Downloader
+# MM+ CHD Downloader
 
 This `sh` shell script allows you to download PlayStation (PSX) game `.CHD` files from the Internet Archive. The script displays a paginated list of available files, allows you to download the ones you choose, and stores them in `../Roms/PS`.
 
@@ -46,7 +46,7 @@ When you run the script, the first page of `.chd` files will appear, numbered fr
 
 ![Choose and download ](20240523_234039.gif)
 
-## 🚀 Author
+## 🚀 Based on the original script of:
 
 - [@vzepec](https://github.com/vzepec)
 
