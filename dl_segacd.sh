@@ -47,14 +47,14 @@ download_file() {
     while IFS= read -r line && [ $i -le $index ]; do
         if [ $i -eq $index ]; then
             # Download selected file
-            wget -P "../Roms/PS/" "$BASE_URL$line"
+            wget -P "../Roms/SEGACD/" "$BASE_URL$line"
 
             # Replace invalid chars from the name
             file_name=$(echo "$line" | sed -e 's/%20/ /g' -e 's/%28/(/g' -e 's/%29/)/g' -e 's/%2C/,/g' -e 's/%26/\&/g' -e 's/%27/'"'"'/g' -e 's/%21/!/g' -e 's/%25/%/g')
 
             # Rename file with the new file name
-            mv "../Roms/PS/$line" "../Roms/PS/$file_name"
-            echo "Download complete: ../Roms/PS/$file_name"
+            mv "../Roms/SEGACD/$line" "../Roms/SEGACD/$file_name"
+            echo "Download complete: ../Roms/SEGACD/$file_name"
             break
         fi
         i=$((i + 1))
