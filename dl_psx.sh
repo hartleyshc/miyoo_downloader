@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # URL base
-BASE_URL="https://archive.org/download/chd_psx_eur/CHD-PSX-EUR/"
+BASE_URL="https://archive.org/download/chd_psx/CHD-PSX-USA/"
 
 # Download file list
 wget -q -O - "$BASE_URL" | grep -o 'href="[^\"]*\.chd"' | sed 's/ /%20/g' | sed 's/href="//' | sed 's/"//' > file_list.txt
