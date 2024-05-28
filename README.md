@@ -12,7 +12,7 @@ This `sh` shell script allows you to download PlayStation (PSX) game `.CHD` file
 
 # Installation and Run
 
-* Download the file [dl_psx.sh](https://github.com/vzepec/miyoo_downloader_psx/blob/main/download_psx.sh).
+* Download the file [dl_psx.sh](https://github.com/hartleyshc/miyoo_downloader/blob/main/dl_psx.sh).
 * Connect your Miyoo's micro SD card to your computer.
 * Create a folder on the micro SD card called `scripts` and place the `download_psx.sh` file inside.
 * Connect the micro SD card to your Miyoo and open the Terminal app.
